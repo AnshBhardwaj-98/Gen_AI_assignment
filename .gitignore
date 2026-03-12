@@ -1,0 +1,113 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+.env
+.env.local
+
+# IDE & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+
+# Generated Output Files
+# GEN_AI_Tasks/Task 1/outputs/*.mp4
+# GEN_AI_Tasks/Task 1/outputs/*.png
+# GEN_AI_Tasks/Task 1/outputs/*.jpg
+# GEN_AI_Tasks/Task 2/outputs/*.md
+# GEN_AI_Tasks/Task 3/outputs/*.md
+
+# Temporary Files
+temp/
+*.tmp
+*.temp
+.tmp/
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE Configuration
+.pylintrc
+.flake8
+.mypy.ini
+pytest.ini
+
+# Node (if applicable)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Testing
+.tox/
+.hypothesis/
+
+# Documentation
+site/
+docs/_build/
+COMPREHENSIVE_DOCUMENTATION.md
+
+# Miscellaneous
+*.log
+*.bak
+*.orig
+.cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# API Keys (IMPORTANT - Never commit!)
+# If you accidentally add .env, remove it:
+# git rm --cached .env
+# git commit -m "Remove .env from tracking"
+
+# Large files (optional - uncomment if needed)
+# *.zip
+# *.tar.gz
+# *.rar
